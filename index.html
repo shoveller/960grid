@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <title>960Grid 실습</title>
+    <link rel="stylesheet" href="./css/fluidable.css"/>
+    <style>
+        .container{
+            background-image: url('../img/grid.png');
+        }
+        .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+            box-sizing: border-box;
+            background-color: #000066;
+            opacity: 0.2;
+            height: 100px;
+        }
+        .col-group{
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content" class="container">
+        <div class="col-group">
+            <div class="col-1"><p>&nbsp;</p></div>
+        </div>
+        <div class="col-group">
+            <div class="col-2 col-push-1"><p>&nbsp;</p></div>
+        </div>
+    </div>
+</body>
+</html>
